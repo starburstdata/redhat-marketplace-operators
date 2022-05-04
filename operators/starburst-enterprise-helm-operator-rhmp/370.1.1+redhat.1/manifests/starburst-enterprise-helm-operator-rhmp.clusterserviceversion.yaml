@@ -395,7 +395,7 @@ metadata:
     operators.operatorframework.io/project_layout: helm.sdk.operatorframework.io/v1
     marketplace.openshift.io/remote-workflow: https://marketplace.redhat.com/en-us/operators/starburst-enterprise-helm-operator-rhmp/pricing?utm_source=openshift_console
     marketplace.openshift.io/support-workflow: https://marketplace.redhat.com/en-us/operators/starburst-enterprise-helm-operator-rhmp/support?utm_source=openshift_console
-  name: starburst-enterprise-helm-operator.v370.1.1-1
+  name: starburst-enterprise-helm-operator.v370.1.1+redhat.1
   namespace: placeholder
 spec:
   apiservicedefinitions: {}
@@ -607,7 +607,7 @@ spec:
   maturity: stable
   provider:
     name: Starburst Data
-  version: 370.1.1-1
+  version: 370.1.1+redhat.1
   relatedImages:
     - name: starburst-enterprise-helm-operator
       image: registry.connect.redhat.com/starburst/starburst-enterprise-helm-operator@sha256:e3db8e443b0b7392c4e52cf0e4791df939b06f7397de423f8c9b4465e22ef0e9
